@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preorder-AUTOSTORE</title>
+</head>
+<style>
+  *{box-sizing: border-box;}
+  body{font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 15px 30px;
+  font-size: 17px;padding: 8px;
+  background-color: rgb(1, 0, 0);
+color:rgb(255, 255, 255);}
+h1{
+  color: firebrick;
+}
+#submit{
+  background-color: firebrick;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+    padding: 20px;
+    
+}
+</style>
+<h1>AUTOSTORE</h1>
+<hr>
+<form action="order.html"target="_blank">
+ <label for="fname">*First name:</label>
+  <input type="text" id="fname" name="fname" value=" " required> <br> <br>
+  <label for="lname">*Last name:</label>
+  <input type="text" id="lname" name="lname" value=" " required><br><br>
+<label for="email">Email:</label>
+  <input type="text" id="email" name="email" value="ex:myname@example.com"><br><br>
+<label for="company">Select Company:</label>
+ <select>
+<option value="1" >---Select---</option>
+<option value="2">Audi</option>
+<option value="3">BMW</option>
+<option value="4">Daihatsu</option>
+<option value="5">Honda</option>
+<option value="6">Hyundai</option>
+<option value="7">Isuzu</option>
+<option value="8">KIA</option>
+<option value="9">Lexus</option>
+<option value="10">Mercedes</option>
+<option value="11">Nissan</option>
+<option value="12">Suzuki</option>
+<option value="1">Toyota</option>
+</select><br><br>
+<label for="model">*Model</label>
+  <input type="text" id="model" name="model" value=" " required><br><br>
+<label for="nog">*Year</label>
+  <input type="text" id="nog" name="nog" value=" " required><br><br>
+<label for="dat">*Delivery Date and Time:</label>
+  <input type="date" id="dat" name="dat" value="Date" required>
+<input type="time" id=dat" name="dat" value="Hour Minutes" required><br><br>
+<label for="payment">*Payment Method</label><br>
+<input type="radio" id="1" name="payment" value=" " required>VISA/MASTERCARD<br>
+<input type="radio" id="2" name="payment" value=" " required>CASH ON DELIVERY(10% Advance Payment)<br><br>
+<label for="add"> Full Address:</label>
+<textarea name="add" id="add" cols="100" rows="8"></textarea><br><br>
+<label for="special">Instructions:</label>
+<textarea name="req" id="req" cols="100" rows="8"></textarea><br><br>
+<label for="submit"></label>
+  <input type="submit" id="submit" name="submit" value="SUBMIT"><br>
+</form>
+</body>
+</html>
+
+</body>
+</html>
+
