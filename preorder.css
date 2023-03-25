@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+
+}
+body{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 15px 30px;
+  font-size: 17px;padding: 8px;
+  background-color: rgb(1, 0, 0);
+  color:rgb(255, 255, 255);}
+h1{
+  color: firebrick;
+}
+#submit{
+  background-color: firebrick;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 10%;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+    padding: 20px;
+    
+}
