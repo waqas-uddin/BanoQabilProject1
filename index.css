@@ -11,6 +11,10 @@ body {
   margin: 0px;
   background-color: black;
   
+  width:100%;
+  min-width:1000px;
+  height:auto;
+  
 }
 .center{
   text-align: center;
@@ -24,7 +28,7 @@ label{
 }
 input[type="text"]
 {
-  width: 100%;
+  width: 60%;
   padding: 12px;
   border: 1px solid #ccc;
   background-color: rgba(102, 95, 95, 0.082);
@@ -45,8 +49,7 @@ input[type="text"]
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
-  
+  font-size: 17px;  
 }
 
 
@@ -114,7 +117,7 @@ footer a {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -149,21 +152,20 @@ img:hover{
 } 
 
 p{
-  text-align: center; box-sizing: border-box;font-family: Georgia, 'Times New Roman', Times, serif;font-style: italic; color: white;
-}
-.mapouter{
-  align-items: center;
+  text-align: center; 
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic; 
+  color: white;
 }
 .about-section {
   text-align:center;
   color:rgb(12, 11, 11);
   size:30;
   background-color:  rgb(102, 5, 5);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-.center{
-  align-items: center;
-}  
-.gmap_canvas{
-  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+center{
+  display: flex;
+  justify-content: center;
+}  
